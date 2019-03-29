@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ping Pong</title>
+    <title>Doctor Lookup</title>
   </head>
   <body>
-    <form id="ping-pong-form">
-      <label for="goal">Enter a number:</label>
-      <input id="goal" type="number">
-      <button type="submit">Submit</button>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Welcome to doctor search portal. How can we help you?</h1>
+    </div>
+    <form id="doctorForm">
+      <div class="form-group">
+        <label for="condition"><h3>Enter the condition you are suffering from:</h3></label>
+        <input id="condition" type="text" class="form-control" placeholder="Condition">
+      </div>
+      <div class="form-group">
+        <label for="doctorName"><h3>Looking for a specific doctor? Enter their name here:</h3></label>
+        <input id="doctorName" type="text" class="form-control" placeholder="Name">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-    <ul id="solution"></ul>
+    <br>
+    <div id="results"></div>
+    <div id="error"></div>
+  </div>
   </body>
 </html>
