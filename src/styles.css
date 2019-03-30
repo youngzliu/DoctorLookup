@@ -24,3 +24,11 @@ table, th, td {
   display: none;
   font-weight: bold;
 }
+
+#buttons{
+  text-align: center;
+}
+
+#previous, #next{
+  display: none;
+}
