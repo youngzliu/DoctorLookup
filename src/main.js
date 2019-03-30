@@ -65,6 +65,7 @@ $(document).ready(function() {
     if(skip !== 0){
       $("#previous").show();
     }
+    $("#pageNum").html(`<strong>Page ${(skip/perPage) + 1} of ${Math.floor(total/perPage) + 1}</strong>`);
   }
 
   $("#next").click(function(){
