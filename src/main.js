@@ -104,7 +104,7 @@ $(document).ready(function() {
       rowString += `<tr><td>${doctor.profile.first_name} ${doctor.profile.last_name}</td>`;
       let website = practice.website;
       if(website === undefined)
-      { website = "none"; }
+      { website = "None"; }
       let accept = practice.accepts_new_patients;
       if(accept === true)
       { accept = "Yes"; }
