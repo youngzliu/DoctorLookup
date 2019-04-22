@@ -52,8 +52,7 @@ _This website will allow the user to look up information about nearby doctors._
 * _Clone this Repository ($ git clone https://github.com/youngzliu/DoctorLookup name)_
 * _Change into the work directory ($ cd DoctorLookup)_
 * _To edit the project, open the project in your preferred text editor._
-* _To run the website, navigate to the directory of DoctorLookup, and then install, build and start ($ cd SuperGalaxyAgeCalculator;
-  $ npm install; $ npm run build; $ npm run start)_
+* _To run the website, navigate to the directory of DoctorLookup, and then install, build and start ($ cd DoctorLookup; $ npm install; $ npm run build; $ npm run start)_
   * _Then navigate to http://localhost:8080 on your browser of choice._
 
 ## Support and contact details
